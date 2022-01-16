@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "vhfXTuVX1rWOfsOehMG6HYfHoV61sxWareg9hum8gbM=",
+  "Source": "FieldMerge.API",
+  "BasePath": "_content/FieldMerge.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\georg\\RiderProjects\\FieldMerge\\FieldMerge.API\\FieldMerge.API\\FieldMerge.Data\\FieldMerge.Data.csproj",
+      "Version": 2,
+      "Source": "FieldMerge.Data",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

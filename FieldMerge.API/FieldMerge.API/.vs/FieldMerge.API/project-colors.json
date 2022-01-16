@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "99a88cb5-47b3-4105-a324-aea66216107a": {
+      "ProjectGuid": "99a88cb5-47b3-4105-a324-aea66216107a",
+      "DisplayName": "FieldMerge.API",
+      "ColorIndex": 0
+    },
+    "7b9969e3-9e5f-4ebe-b3f9-12a494218524": {
+      "ProjectGuid": "7b9969e3-9e5f-4ebe-b3f9-12a494218524",
+      "DisplayName": "FieldMerge.Data",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
