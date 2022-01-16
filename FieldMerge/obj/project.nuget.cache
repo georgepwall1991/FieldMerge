@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3NLVFMZrwLCpd7t6KXqN5SHIHqc+4uo3h/fDuoN9n+HlpJwCVo3lS7THt7QGenUKWfH8c4UR+g1TlK2RfDeXXg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\georg\\RiderProjects\\FieldMerge\\FieldMerge\\FieldMerge.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\georg\\.nuget\\packages\\documentformat.openxml\\2.15.0\\documentformat.openxml.2.15.0.nupkg.sha512",
+    "C:\\Users\\georg\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
