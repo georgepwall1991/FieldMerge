@@ -6,7 +6,6 @@ fieldCodeContext.FieldCodePatterns.RemoveRange(fieldCodeContext.FieldCodePattern
 await fieldCodeContext.SaveChangesAsync();
 await fieldCodeContext.FieldCodePatterns.AddAsync(new FieldCodePattern
 {
-    PatternId = 1,
     PatternFrom = "FIELDCODE1/FIELDCODE2/FIELDCODE4",
     PatternTo = "FIELDCODE2/FIELDCODE4/FIELDCODE1"
 });

@@ -13,14 +13,18 @@ public class FieldMergeService : IFieldMergeService
         _fieldCodeContext = fieldCodeContext;
     }
 
-    public Task<bool> SaveFieldMergePattern(FieldCodePattern fieldCodeConversionPattern)
+    public async Task<bool> SaveFieldMergePattern(FieldCodePattern fieldCodeConversionPattern)
     {
-        throw new NotImplementedException();
+        await _fieldCodeContext.FieldCodePatterns.AddAsync(fieldCodeConversionPattern);
+        await _fieldCodeContext.SaveChangesAsync();
+        return true;
     }
 
-    public Task<bool> SaveFieldMergePatterns(List<FieldCodePattern> fieldCodeConversionPattern)
+    public async Task<bool> SaveFieldMergePatterns(List<FieldCodePattern> fieldCodeConversionPattern)
     {
-        throw new NotImplementedException();
+        await _fieldCodeContext.FieldCodePatterns.AddRangeAsync(fieldCodeConversionPattern);
+        await _fieldCodeContext.SaveChangesAsync();
+        return true;
     }
 
     public async Task<List<FieldCodePattern>> LoadFieldCodeConversionPatterns()
