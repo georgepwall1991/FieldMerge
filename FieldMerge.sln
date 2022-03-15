@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldMerge", "FieldMerge\Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldMerge.API", "FieldMerge.API\FieldMerge.API\FieldMerge.API\FieldMerge.API.csproj", "{395DC3A0-AEC0-4ADB-AC06-5E024333125B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldMerge.Data", "FieldMerge.API\FieldMerge.API\FieldMerge.Data\FieldMerge.Data.csproj", "{66D4BE85-3A42-431A-91AA-6C579DE1A42E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldMerge.Data", "FieldMerge.Data\FieldMerge.Data.csproj", "{C28B49FF-BBD8-4440-86CF-2D6585E2B49E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +20,9 @@ Global
 		{395DC3A0-AEC0-4ADB-AC06-5E024333125B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{395DC3A0-AEC0-4ADB-AC06-5E024333125B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{395DC3A0-AEC0-4ADB-AC06-5E024333125B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{66D4BE85-3A42-431A-91AA-6C579DE1A42E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{66D4BE85-3A42-431A-91AA-6C579DE1A42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{66D4BE85-3A42-431A-91AA-6C579DE1A42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{66D4BE85-3A42-431A-91AA-6C579DE1A42E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C28B49FF-BBD8-4440-86CF-2D6585E2B49E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28B49FF-BBD8-4440-86CF-2D6585E2B49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28B49FF-BBD8-4440-86CF-2D6585E2B49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28B49FF-BBD8-4440-86CF-2D6585E2B49E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

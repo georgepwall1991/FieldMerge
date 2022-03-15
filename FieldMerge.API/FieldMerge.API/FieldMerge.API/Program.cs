@@ -1,5 +1,6 @@
 using FieldMerge.API.Interfaces;
 using FieldMerge.API.Service;
+using FieldMerge.Data.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +8,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IFieldMergeService, FieldMergeService>();
+builder.Services.AddDbContext<FieldCodeContext>();
 
 var app = builder.Build();
 

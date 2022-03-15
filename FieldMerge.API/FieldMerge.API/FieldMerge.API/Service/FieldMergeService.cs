@@ -1,22 +1,31 @@
 ﻿using FieldMerge.API.Interfaces;
-using FieldMerge.Data.DTO;
+using FieldMerge.Data.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace FieldMerge.API.Service;
 
 public class FieldMergeService : IFieldMergeService
 {
-    public Task<bool> SaveFieldMergePattern(FieldCodeConversionPattern fieldCodeConversionPattern)
+    private readonly FieldCodeContext _fieldCodeContext;
+
+    public FieldMergeService(FieldCodeContext fieldCodeContext)
+    {
+        _fieldCodeContext = fieldCodeContext;
+    }
+
+    public Task<bool> SaveFieldMergePattern(FieldCodePattern fieldCodeConversionPattern)
     {
         throw new NotImplementedException();
     }
 
-    public Task<bool> SaveFieldMergePatterns(List<FieldCodeConversionPattern> fieldCodeConversionPattern)
+    public Task<bool> SaveFieldMergePatterns(List<FieldCodePattern> fieldCodeConversionPattern)
     {
         throw new NotImplementedException();
     }
 
-    public Task<List<FieldCodeConversionPattern>> LoadFieldCodeConversionPatterns()
+    public async Task<List<FieldCodePattern>> LoadFieldCodeConversionPatterns()
     {
-        throw new NotImplementedException();
+        return await _fieldCodeContext.FieldCodePatterns
+            .ToListAsync();
     }
 }

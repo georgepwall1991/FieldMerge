@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FieldMerge.Data\FieldMerge.Data.csproj" />
+    <ProjectReference Include="..\..\..\FieldMerge.Data\FieldMerge.Data.csproj"/>
   </ItemGroup>
 
 </Project>

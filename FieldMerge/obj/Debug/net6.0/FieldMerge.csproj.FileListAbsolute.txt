@@ -2,7 +2,6 @@ C:\Users\georg\RiderProjects\FieldMerge\FieldMerge\bin\Debug\net6.0\FieldMerge.e
 C:\Users\georg\RiderProjects\FieldMerge\FieldMerge\bin\Debug\net6.0\FieldMerge.deps.json
 C:\Users\georg\RiderProjects\FieldMerge\FieldMerge\bin\Debug\net6.0\FieldMerge.runtimeconfig.json
 C:\Users\georg\RiderProjects\FieldMerge\FieldMerge\bin\Debug\net6.0\FieldMerge.dll
-C:\Users\georg\RiderProjects\FieldMerge\FieldMerge\bin\Debug\net6.0\ref\FieldMerge.dll
 C:\Users\georg\RiderProjects\FieldMerge\FieldMerge\bin\Debug\net6.0\FieldMerge.pdb
 C:\Users\georg\RiderProjects\FieldMerge\FieldMerge\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
 C:\Users\georg\RiderProjects\FieldMerge\FieldMerge\bin\Debug\net6.0\System.IO.Packaging.dll
@@ -13,6 +12,7 @@ C:\Users\georg\RiderProjects\FieldMerge\FieldMerge\obj\Debug\net6.0\FieldMerge.A
 C:\Users\georg\RiderProjects\FieldMerge\FieldMerge\obj\Debug\net6.0\FieldMerge.csproj.CoreCompileInputs.cache
 C:\Users\georg\RiderProjects\FieldMerge\FieldMerge\obj\Debug\net6.0\FieldMerge.csproj.CopyComplete
 C:\Users\georg\RiderProjects\FieldMerge\FieldMerge\obj\Debug\net6.0\FieldMerge.dll
-C:\Users\georg\RiderProjects\FieldMerge\FieldMerge\obj\Debug\net6.0\ref\FieldMerge.dll
+C:\Users\georg\RiderProjects\FieldMerge\FieldMerge\obj\Debug\net6.0\refint\FieldMerge.dll
 C:\Users\georg\RiderProjects\FieldMerge\FieldMerge\obj\Debug\net6.0\FieldMerge.pdb
 C:\Users\georg\RiderProjects\FieldMerge\FieldMerge\obj\Debug\net6.0\FieldMerge.genruntimeconfig.cache
+C:\Users\georg\RiderProjects\FieldMerge\FieldMerge\obj\Debug\net6.0\ref\FieldMerge.dll

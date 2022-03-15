@@ -1,12 +1,12 @@
-﻿using FieldMerge.Data.DTO;
+﻿using FieldMerge.Data.Models;
 
 namespace FieldMerge.API.Interfaces;
 
 public interface IFieldMergeService
 {
-    Task<bool> SaveFieldMergePattern(FieldCodeConversionPattern fieldCodeConversionPattern);
-    
-    Task<bool> SaveFieldMergePatterns(List<FieldCodeConversionPattern> fieldCodeConversionPattern);
+    Task<bool> SaveFieldMergePattern(FieldCodePattern fieldCodeConversionPattern);
 
-    Task<List<FieldCodeConversionPattern>> LoadFieldCodeConversionPatterns();
+    Task<bool> SaveFieldMergePatterns(List<FieldCodePattern> fieldCodeConversionPattern);
+
+    Task<List<FieldCodePattern>> LoadFieldCodeConversionPatterns();
 }

@@ -1,5 +1,5 @@
 ﻿using FieldMerge.API.Interfaces;
-using FieldMerge.Data.DTO;
+using FieldMerge.Data.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FieldMerge.API.Controllers;
@@ -16,7 +16,7 @@ public class FieldMergeController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<List<FieldCodeConversionPattern>>> GetAllPatterns()
+    public async Task<ActionResult<List<FieldCodePattern>>> GetAllPatterns()
     {
         var fieldConversionPatterns = await _fieldMergeService.LoadFieldCodeConversionPatterns();
         if (fieldConversionPatterns.Any())

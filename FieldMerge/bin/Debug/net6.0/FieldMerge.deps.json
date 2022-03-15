@@ -8,20 +8,20 @@
     ".NETCoreApp,Version=v6.0": {
       "FieldMerge/1.0.0": {
         "dependencies": {
-          "DocumentFormat.OpenXml": "2.15.0"
+          "DocumentFormat.OpenXml": "2.16.0"
         },
         "runtime": {
           "FieldMerge.dll": {}
         }
       },
-      "DocumentFormat.OpenXml/2.15.0": {
+      "DocumentFormat.OpenXml/2.16.0": {
         "dependencies": {
           "System.IO.Packaging": "4.7.0"
         },
         "runtime": {
           "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {
-            "assemblyVersion": "2.15.0.0",
-            "fileVersion": "2.15.0.0"
+            "assemblyVersion": "2.16.0.0",
+            "fileVersion": "2.16.0.0"
           }
         }
       },
@@ -41,12 +41,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DocumentFormat.OpenXml/2.15.0": {
+    "DocumentFormat.OpenXml/2.16.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ymfVWFza7DScxwGXRjqevoOe/UoZdaZsbdzEHlkq3nzyQmMwoD04KQwlE8qw3iUAmIn7r3PjEaqQZ4JtuQj35A==",
-      "path": "documentformat.openxml/2.15.0",
-      "hashPath": "documentformat.openxml.2.15.0.nupkg.sha512"
+      "sha512": "sha512-RhpnDgyyx1KjZm98T3w3bSXFHG/7ZNUaVmz4NAUA+jmV3PcVNZeW87Y04CpBNLdDHEMSspirfo0B5kLRaoE97w==",
+      "path": "documentformat.openxml/2.16.0",
+      "hashPath": "documentformat.openxml.2.16.0.nupkg.sha512"
     },
     "System.IO.Packaging/4.7.0": {
       "type": "package",
