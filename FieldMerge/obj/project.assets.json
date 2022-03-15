@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "DocumentFormat.OpenXml/2.15.0": {
+      "DocumentFormat.OpenXml/2.16.0": {
         "type": "package",
         "dependencies": {
           "System.IO.Packaging": "4.7.0"
@@ -26,14 +26,14 @@
     }
   },
   "libraries": {
-    "DocumentFormat.OpenXml/2.15.0": {
-      "sha512": "ymfVWFza7DScxwGXRjqevoOe/UoZdaZsbdzEHlkq3nzyQmMwoD04KQwlE8qw3iUAmIn7r3PjEaqQZ4JtuQj35A==",
+    "DocumentFormat.OpenXml/2.16.0": {
+      "sha512": "RhpnDgyyx1KjZm98T3w3bSXFHG/7ZNUaVmz4NAUA+jmV3PcVNZeW87Y04CpBNLdDHEMSspirfo0B5kLRaoE97w==",
       "type": "package",
-      "path": "documentformat.openxml/2.15.0",
+      "path": "documentformat.openxml/2.16.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "documentformat.openxml.2.15.0.nupkg.sha512",
+        "documentformat.openxml.2.16.0.nupkg.sha512",
         "documentformat.openxml.nuspec",
         "icon.png",
         "lib/net35/DocumentFormat.OpenXml.dll",
@@ -78,13 +78,11 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "DocumentFormat.OpenXml >= 2.15.0"
+      "DocumentFormat.OpenXml >= 2.16.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\georg\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\georg\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -95,20 +93,13 @@
       "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\georg\\RiderProjects\\FieldMerge\\FieldMerge\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\georg\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\georg\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -129,7 +120,7 @@
         "dependencies": {
           "DocumentFormat.OpenXml": {
             "target": "Package",
-            "version": "[2.15.0, )"
+            "version": "[2.16.0, )"
           }
         },
         "imports": [
@@ -147,7 +138,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\georg\\.dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
