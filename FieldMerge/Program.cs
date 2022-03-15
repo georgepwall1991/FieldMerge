@@ -18,11 +18,10 @@ namespace FieldMerge;
 ***/
 internal static class Program
 {
-    private static readonly List<FieldCodePatternFromToDTO> PatternsToChange = new();
-    private static readonly Dictionary<string, FieldCodePatternFromToDTO> ToChange = new();
-
     //TODO: 1
     private const string FileToOpen = @"C:\\Users\georg\Documents\WordDoc\George.docx";
+    private static readonly List<FieldCodePatternFromToDTO> PatternsToChange = new();
+    private static readonly Dictionary<string, FieldCodePatternFromToDTO> ToChange = new();
 
     private static void Main()
     {
@@ -38,12 +37,14 @@ internal static class Program
         document.ChangeDocumentType(WordprocessingDocumentType.Document);
 
         if (SetToChangeDictionary(document)) return;
+
         UpdateDocumentBasedOnPatterns(document);
     }
 
     private static void UpdateDocumentBasedOnPatterns(WordprocessingDocument document)
     {
         if (document.MainDocumentPart == null) return;
+
         foreach (var topLevelDescendents in document.MainDocumentPart.Document.Descendants<Paragraph>()
                      .Where(o => o.ParagraphId != null && ToChange.ContainsKey(o.ParagraphId)))
         foreach (var secondLevelDescendents in topLevelDescendents.Descendants<Run>())
@@ -52,6 +53,7 @@ internal static class Program
             var (_, value) = ToChange.FirstOrDefault(o => o.Key == topLevelDescendents.ParagraphId);
             var patternToChangeTo = PatternsToChange.FirstOrDefault(o => o.FromPattern.Equals(value.FromPattern));
             if (patternToChangeTo is null) continue;
+
             var left = value.FromPattern.Split('/').Where(o => o.Length > 0).ToList();
             var right = patternToChangeTo.ToPattern.Trim().Split('/').Where(o => o.Length > 0).ToList();
             if (left.Count != right.Count) throw new ApplicationException("Pattern has to be same length");
@@ -60,6 +62,7 @@ internal static class Program
             {
                 var leftItem = left[i];
                 if (fieldCode.Text != leftItem) continue;
+
                 var textToChangeTo = right[i];
                 Console.WriteLine($"{fieldCode.Text} has been changed to {textToChangeTo}");
                 fieldCode.Text = textToChangeTo;

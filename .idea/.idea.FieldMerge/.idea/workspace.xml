@@ -12,11 +12,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dc892b4-52c6-461b-81bb-06a185ac8332" name="Changes" comment="fit gitignore" />
+    <list default="true" id="2dc892b4-52c6-461b-81bb-06a185ac8332" name="Changes" comment="add gignore">
+      <change afterPath="$PROJECT_DIR$/FieldMerge.sln.DotSettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FieldMerge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FieldMerge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.API/Controllers/FieldMergeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.API/Controllers/FieldMergeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.API/FieldMerge.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.API/FieldMerge.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.API/bin/Debug/net6.0/FieldMerge.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.API/bin/Debug/net6.0/FieldMerge.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.API/bin/Debug/net6.0/FieldMerge.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.API/bin/Debug/net6.0/FieldMerge.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.API/obj/Debug/net6.0/FieldMerge.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.API/obj/Debug/net6.0/FieldMerge.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.API/obj/Debug/net6.0/FieldMerge.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.API/obj/Debug/net6.0/FieldMerge.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.API/obj/Debug/net6.0/FieldMerge.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.API/obj/Debug/net6.0/FieldMerge.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.API/obj/Debug/net6.0/ref/FieldMerge.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.API/obj/Debug/net6.0/ref/FieldMerge.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.API/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.API/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldMerge/DTO/FieldCodePatternFromToDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FieldMerge/DTO/FieldCodePatternFromToDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldMerge/FieldMerge.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FieldMerge/FieldMerge.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldMerge/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FieldMerge/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldMerge/bin/Debug/net6.0/FieldMerge.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FieldMerge/bin/Debug/net6.0/FieldMerge.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldMerge/bin/Debug/net6.0/FieldMerge.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldMerge/bin/Debug/net6.0/FieldMerge.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldMerge/obj/Debug/net6.0/FieldMerge.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FieldMerge/obj/Debug/net6.0/FieldMerge.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldMerge/obj/Debug/net6.0/FieldMerge.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldMerge/obj/Debug/net6.0/FieldMerge.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -28,8 +50,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8fe5b9fa0d07425ba30fafd53baa5a7ea23880/83/bd99ae40/Environment.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.Data/DbContext/FieldMergeDbContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FieldMerge.API/FieldMerge.API/FieldMerge.Data/DTO/FieldCodeConversionPatterns.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -166,7 +186,7 @@
       <updated>1647378764687</updated>
       <workItem from="1647378769573" duration="169000" />
       <workItem from="1647378959002" duration="820000" />
-      <workItem from="1647379800557" duration="4228000" />
+      <workItem from="1647379800557" duration="4792000" />
     </task>
     <task id="LOCAL-00001" summary="registering service + creating controller">
       <created>1647379531439</created>
@@ -203,7 +223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647384066915</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="push">
+      <created>1647384499693</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647384499693</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add gignore">
+      <created>1647384558889</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1647384558889</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +266,9 @@
     <MESSAGE value="finishing off api controllers" />
     <MESSAGE value="finish off pattern api" />
     <MESSAGE value="fit gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="fit gitignore" />
+    <MESSAGE value="push" />
+    <MESSAGE value="add gignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gignore" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

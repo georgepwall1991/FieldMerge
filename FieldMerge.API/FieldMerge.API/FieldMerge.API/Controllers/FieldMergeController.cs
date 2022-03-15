@@ -27,6 +27,7 @@ public class FieldMergeController : ControllerBase
     }
 
     [HttpPost]
+    [Route("SavePattern")]
     public async Task<ActionResult> SavePattern([FromBody] PatternRequest patternRequest)
     {
         var (patternFrom, patternTo) = patternRequest;
@@ -42,6 +43,7 @@ public class FieldMergeController : ControllerBase
     }
 
     [HttpPost]
+    [Route("SavePatterns")]
     public async Task<ActionResult> SavePatterns([FromBody] List<PatternRequest> patternRequests)
     {
         var saved = await _fieldMergeService
