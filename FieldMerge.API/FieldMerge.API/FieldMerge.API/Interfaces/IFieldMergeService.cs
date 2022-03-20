@@ -6,7 +6,9 @@ public interface IFieldMergeService
 {
     Task<bool> SaveFieldMergePattern(FieldCodePattern fieldCodeConversionPattern);
 
-    Task<bool> SaveFieldMergePatterns(List<FieldCodePattern> fieldCodeConversionPattern);
+    Task<bool> SaveFieldMergePatterns(IEnumerable<FieldCodePattern> fieldCodeConversionPattern);
 
     Task<List<FieldCodePattern>> LoadFieldCodeConversionPatterns();
+
+    Task<bool> DeleteFieldCodePattern(int id);
 }

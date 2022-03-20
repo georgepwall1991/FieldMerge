@@ -57,4 +57,14 @@ public class FieldMergeController : ControllerBase
 
         return BadRequest("Pattern already exists");
     }
+
+    [HttpDelete]
+    public async Task<ActionResult> DeletePattern(int id)
+    {
+        var deleted = await _fieldMergeService.DeleteFieldCodePattern(id);
+        if (deleted)
+            return Ok(deleted);
+
+        return BadRequest("Unable to delete specified Id");
+    }
 }

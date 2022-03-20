@@ -20,7 +20,7 @@ public class FieldMergeService : IFieldMergeService
         return true;
     }
 
-    public async Task<bool> SaveFieldMergePatterns(List<FieldCodePattern> fieldCodeConversionPattern)
+    public async Task<bool> SaveFieldMergePatterns(IEnumerable<FieldCodePattern> fieldCodeConversionPattern)
     {
         await _fieldCodeContext.FieldCodePatterns.AddRangeAsync(fieldCodeConversionPattern);
         await _fieldCodeContext.SaveChangesAsync();
@@ -31,5 +31,15 @@ public class FieldMergeService : IFieldMergeService
     {
         return await _fieldCodeContext.FieldCodePatterns
             .ToListAsync();
+    }
+
+    public async Task<bool> DeleteFieldCodePattern(int id)
+    {
+        var toDelete = await _fieldCodeContext.FieldCodePatterns.SingleOrDefaultAsync(o => o.PatternId.Equals(id));
+        if (toDelete is null) return false;
+
+        _fieldCodeContext.FieldCodePatterns.Remove(toDelete);
+        await _fieldCodeContext.SaveChangesAsync();
+        return true;
     }
 }
